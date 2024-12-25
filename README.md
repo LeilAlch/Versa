@@ -2,22 +2,6 @@
 
 This is a simple task management application that allows users to view, allocate, update tasks, as well as search and sort tasks based on various criteria.
 
-## Screenshots
-
-### Log In Page
-![Log In Page](ss/login.png)
-
-### Admin View
-![Admin View](ss/adminView.png)
-
-### User View
-![User View](ss/userView.png)
-
-### Allocate Task
-![Allocate Task](ss/allocatetask.png)
-
-### Edit Task (Admin)
-![Edit Task (Admin)](ss/editeTaskAdmin.png)
 
 ## Features
 
