@@ -1,0 +1,273 @@
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: 500;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #dddddd;
+}
+
+/* Button styles */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Modal styles */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 360px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.modal label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal input, textarea, .modal select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.modal button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.modal button.cancel {
+    background-color: #f44336; /* Red */
+}
+
+/* Additional styles */
+.filters {
+    margin-top: 20px;
+}
+
+.filters input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #1b1b94;
+    margin-right: 20px;
+
+}
+
+.filters select {
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 8px;
+    /* border: 0; */
+    border: 1px solid #1b1b94;
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.actions button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.actions button.edit {
+    background-color: #4CAF50; /* Green */
+}
+
+.actions button.delete {
+    background-color: #f44336; /* Red */
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.table-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.table-actions button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.table-actions button.edit {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+}
+
+.table-actions button.delete {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+}
+
+
+.navbar {
+	width: 80%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.nav_container{
+	border-bottom: 2px solid #c9ae11;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.logout_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	color: #1b1b94;
+	font-family: "Fredoka", serif;
+	font-size: 20px;
+	font-weight: 600;
+	/* margin-left: -80%; */
+}
+
+.Versa_logo{
+	margin-top: 10px;
+	height: 120px;
+	/* margin-left: 10%; */
+}
+
+.div_a a{
+    text-decoration: none;
+    padding: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(27, 27, 148) ;
+}
+
+.div_a a:hover, .navbar h1:hover{
+    color:#c9ae11;
+}
+
+.logout_btn:hover{
+	color: #a10000;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tasks_container h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.tasks_container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editButton, .deleteButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 16px;
+
+}
+
+
+
+.deleteButton{
+    color: #a10000;
+}
