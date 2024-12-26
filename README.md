@@ -81,6 +81,3 @@ To log out of the application, simply click on the "Logout" button, and you will
 - Axios
 - CSS Modules
 
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests for any improvements or bug fixes.
