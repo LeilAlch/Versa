@@ -2,20 +2,41 @@
 
 This is a simple task management application that allows users to view, allocate, update tasks, as well as search and sort tasks based on various criteria.
 
-
 ## Features
 
-- **View Tasks**: Users can view tasks allocated to them.
+1. **View Tasks**  
+   Users can view tasks allocated to them.
 
-- **Allocate Tasks**: Users can allocate tasks to themselves or others.
+2. **Allocate Tasks**  
+   Users can allocate tasks to themselves or others.
 
-- **Update Task**: Admin can update tasks.
+3. **Update Task**  
+   Admins can update task details, such as task name, description, allocation, and validity.
 
-- **Update Task Status**
+4. **Update Task Status**  
+   Users can update the status of their tasks to track progress.
 
-- **Search Functionality**: Users can search for specific tasks using keywords.
+5. **Search Functionality**  
+   Users can search for specific tasks or projects using keywords such as task name, manager, or status.
 
-- **Sort Functionality**: Tasks can be sorted based on various criteria such as status, Name, due date, etc.
+6. **Sort Functionality**  
+   Tasks and projects can be sorted based on various criteria such as status, name, due date, or creation date.
+
+7. **Progress Visualization**  
+   Tasks and projects are displayed with a visual indicator of progress using color coding:
+   - **Green**: Progress below 40%.
+   - **Orange**: Progress between 40% and 70%.
+   - **Red**: Progress above 70%.
+
+8. **Edit Projects**  
+   Admins can edit project details, including project name, manager, progress, and deadlines, using an intuitive modal interface.
+
+9. **Delete Projects**  
+   Admins can delete projects that are no longer needed.
+
+10. **Responsive Filters**  
+    Real-time filtering of tasks and projects based on search inputs and sort options.
+
 
 ## Getting Started
 
