@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 // import AllocateTask from "../Admin";
 import TasksList from "../task";
 import { useEffect, useState } from "react";
-import Versa from "../adminMain/Versa3.png"
+import Versa from "../adminMain/Versa4.png"
 
 const Main = () => {
     const [email, setEmail] = useState('');

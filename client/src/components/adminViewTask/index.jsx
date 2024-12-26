@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from "./styles.module.css";
 import TaskEditModal from '../taskEdit';
-import Versa from "../adminMain/Versa3.png"
+import Versa from "../adminMain/Versa4.png"
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
@@ -122,7 +122,10 @@ function AdminViewTask() {
                     {/* <h1>Versa </h1> */}
                     <div className={styles.div_a}>
                         <a href='/admin'>Add Task </a>
-                        <a href='/admin/view'>View Tasks</a>
+                        <a href='/admin/add-project'>Add Project</a>
+                        <a href='/admin/view-projects'>View Projects</a>
+                        <a href='/admin/view-tasks'>View Tasks</a>
+
                     </div>
                     
                     <div> 

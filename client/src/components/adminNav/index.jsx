@@ -10,7 +10,7 @@ function adminNav() {
         <h1>Versa</h1>
         <div className={styles.div_a}>
                 <a href='/admin'>Add</a>
-                <a href='/admin/view'>View</a>
+                <a href='/admin/view-tasks'>View</a>
         </div>
 				 
         <div>

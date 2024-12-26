@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from "./styles.module.css";
-import AllocateTask from "../Admin"; 
-import Versa from "./Versa4.png"
+// import AllocateTask from "../Admin"; 
+import Versa from "../adminMain/Versa4.png"
+import AllocateProject from '../Project';
 
-function AdminMain() {
+function AdminProject() {
     const handleLogout = () => { 
         window.location = "/";
     };
@@ -17,8 +18,9 @@ function AdminMain() {
                     <div className={styles.div_a}>
                         <a href='/admin'>Add Task </a>
                         <a href='/admin/add-project'>Add Project </a>
+                        <a href='/admin/view-tasks'>View Tasks</a>
                         <a href='/admin/view-projects'>View Projects</a>
-                        <a href='/admin/view'>View Tasks</a>
+
                     </div>
                     
                     <div> 
@@ -31,11 +33,11 @@ function AdminMain() {
             
              
 			
-            <AllocateTask />
+            <AllocateProject />
  
 
         </div>
     );
 };
 
-export default AdminMain;
+export default AdminProject;
