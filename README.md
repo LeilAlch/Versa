@@ -29,13 +29,13 @@ This is a simple task management application that allows users to view, allocate
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/Mahesh-Langote/musterDekhoAssignment.git
+    git clone https://github.com/LeilAlch/Versa.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd musterDekhoAssignment
+    cd Versa
     ```
 
 3. Install dependencies:
@@ -64,7 +64,7 @@ This is a simple task management application that allows users to view, allocate
     npm start
     ```
 
-2. The server should start running at `http://localhost:8080`.
+2. The server should start running at `http://localhost:8086`.
 
 3. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
